@@ -1,0 +1,18 @@
+@import "./src/assets/styles/variables";
+
+.link {
+  text-decoration: none;
+  color: black;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: $mainGradient;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 3px;
+  transition: background-size .3s;
+  &:hover {
+    background-size: 100% 2px;
+  }
+
+}
